@@ -1,5 +1,5 @@
 import http from 'k6/http';
-import { check } from "k6";run
+import { check } from "k6";
 export default function () {
 const payload = JSON.stringify({
 
